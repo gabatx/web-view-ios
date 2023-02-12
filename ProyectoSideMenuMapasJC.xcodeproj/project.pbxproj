@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0C3BA52985EFE200759C0B /* MarkerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B962985EFE200759C0B /* MarkerMap.swift */; };
+		1D0C3BA62985EFE200759C0B /* MarkerWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B972985EFE200759C0B /* MarkerWeb.swift */; };
+		1D0C3BA72985EFE200759C0B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B9A2985EFE200759C0B /* HomeViewController.swift */; };
+		1D0C3BA82985EFE200759C0B /* TurismoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B9C2985EFE200759C0B /* TurismoViewController.swift */; };
+		1D0C3BA92985EFE200759C0B /* ModalAddAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B9D2985EFE200759C0B /* ModalAddAnnotationViewController.swift */; };
+		1D0C3BAA2985EFE200759C0B /* ModalUrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3B9F2985EFE200759C0B /* ModalUrlViewController.swift */; };
+		1D0C3BAB2985EFE200759C0B /* MarkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3BA02985EFE200759C0B /* MarkerTableViewCell.swift */; };
+		1D0C3BAC2985EFE200759C0B /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3BA12985EFE200759C0B /* BrowserViewController.swift */; };
+		1D0C3BAD2985EFE200759C0B /* BrowserMenuRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3BA22985EFE200759C0B /* BrowserMenuRightViewController.swift */; };
+		1D0C3BAE2985EFE200759C0B /* LinaresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3BA42985EFE200759C0B /* LinaresViewController.swift */; };
+		1D0C3BB02985F37D00759C0B /* ModalAddAnnotationViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3BAF2985F37D00759C0B /* ModalAddAnnotationViewControllerDelegate.swift */; };
+		1D384361298618A10043D0FD /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D384360298618A10043D0FD /* ExtensionUIView.swift */; };
+		1D38436529861A720043D0FD /* TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D38436429861A720043D0FD /* TextFieldDelegate.swift */; };
+		1D60302D2983E088005F5310 /* BrowserDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D60302C2983E088005F5310 /* BrowserDelegateProtocol.swift */; };
+		1D946E982985AA9000969DED /* MapViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D946E972985AA9000969DED /* MapViewConfiguration.swift */; };
+		1D946E9B2985AE3600969DED /* MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D946E9A2985AE3600969DED /* MapViewDelegate.swift */; };
+		1DB2EA3A2987194800FB03E4 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2EA392987194800FB03E4 /* LocationManagerDelegate.swift */; };
+		1DB2EA41298723C700FB03E4 /* LocationPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2EA40298723C700FB03E4 /* LocationPermission.swift */; };
+		261EF685297EF324008783BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF684297EF324008783BE /* AppDelegate.swift */; };
+		261EF687297EF324008783BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261EF686297EF324008783BE /* SceneDelegate.swift */; };
+		261EF68C297EF324008783BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261EF68A297EF324008783BE /* Main.storyboard */; };
+		261EF68E297EF325008783BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261EF68D297EF325008783BE /* Assets.xcassets */; };
+		261EF691297EF325008783BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261EF68F297EF325008783BE /* LaunchScreen.storyboard */; };
+		2656EEF9297F219B0051C33F /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656EEF8297F219B0051C33F /* ExtensionUIViewController.swift */; };
+		266CDA8B2989932000693427 /* ModalUrlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDA8A2989932000693427 /* ModalUrlPresenter.swift */; };
+		266CDA8D2989934A00693427 /* BrowserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDA8C2989934A00693427 /* BrowserPresenter.swift */; };
+		266CDA8F2989938400693427 /* BrowserMenuRightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDA8E2989938400693427 /* BrowserMenuRightPresenter.swift */; };
+		266CDA982989966B00693427 /* LinaresPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDA972989966B00693427 /* LinaresPresenter.swift */; };
+		266CDA9A2989967600693427 /* TurismoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDA992989967600693427 /* TurismoPresenter.swift */; };
+		26EB101E29818516008F545B /* ExtensionUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB101D29818516008F545B /* ExtensionUITextField.swift */; };
+		36B9C8E268734CAD98A6D954 /* Pods_ProyectoSideMenuMapasJC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68773C330720D3F08D87AE65 /* Pods_ProyectoSideMenuMapasJC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D0C3B962985EFE200759C0B /* MarkerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerMap.swift; sourceTree = "<group>"; };
+		1D0C3B972985EFE200759C0B /* MarkerWeb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerWeb.swift; sourceTree = "<group>"; };
+		1D0C3B9A2985EFE200759C0B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D0C3B9C2985EFE200759C0B /* TurismoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurismoViewController.swift; sourceTree = "<group>"; };
+		1D0C3B9D2985EFE200759C0B /* ModalAddAnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAddAnnotationViewController.swift; sourceTree = "<group>"; };
+		1D0C3B9F2985EFE200759C0B /* ModalUrlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalUrlViewController.swift; sourceTree = "<group>"; };
+		1D0C3BA02985EFE200759C0B /* MarkerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerTableViewCell.swift; sourceTree = "<group>"; };
+		1D0C3BA12985EFE200759C0B /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		1D0C3BA22985EFE200759C0B /* BrowserMenuRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserMenuRightViewController.swift; sourceTree = "<group>"; };
+		1D0C3BA42985EFE200759C0B /* LinaresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinaresViewController.swift; sourceTree = "<group>"; };
+		1D0C3BAF2985F37D00759C0B /* ModalAddAnnotationViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddAnnotationViewControllerDelegate.swift; sourceTree = "<group>"; };
+		1D384360298618A10043D0FD /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		1D38436429861A720043D0FD /* TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegate.swift; sourceTree = "<group>"; };
+		1D60302C2983E088005F5310 /* BrowserDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserDelegateProtocol.swift; sourceTree = "<group>"; };
+		1D946E972985AA9000969DED /* MapViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewConfiguration.swift; sourceTree = "<group>"; };
+		1D946E9A2985AE3600969DED /* MapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDelegate.swift; sourceTree = "<group>"; };
+		1DB2EA392987194800FB03E4 /* LocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerDelegate.swift; sourceTree = "<group>"; };
+		1DB2EA40298723C700FB03E4 /* LocationPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermission.swift; sourceTree = "<group>"; };
+		261EF681297EF324008783BE /* ProyectoSideMenuMapasJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoSideMenuMapasJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261EF684297EF324008783BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		261EF686297EF324008783BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		261EF68B297EF324008783BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261EF68D297EF325008783BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		261EF690297EF325008783BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		261EF692297EF325008783BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2656EEF8297F219B0051C33F /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
+		266CDA8A2989932000693427 /* ModalUrlPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalUrlPresenter.swift; sourceTree = "<group>"; };
+		266CDA8C2989934A00693427 /* BrowserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserPresenter.swift; sourceTree = "<group>"; };
+		266CDA8E2989938400693427 /* BrowserMenuRightPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserMenuRightPresenter.swift; sourceTree = "<group>"; };
+		266CDA972989966B00693427 /* LinaresPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinaresPresenter.swift; sourceTree = "<group>"; };
+		266CDA992989967600693427 /* TurismoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurismoPresenter.swift; sourceTree = "<group>"; };
+		26EB101D29818516008F545B /* ExtensionUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUITextField.swift; sourceTree = "<group>"; };
+		68773C330720D3F08D87AE65 /* Pods_ProyectoSideMenuMapasJC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoSideMenuMapasJC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A4B02246B9EBB46C10A1E /* Pods-ProyectoSideMenuMapasJC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoSideMenuMapasJC.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoSideMenuMapasJC/Pods-ProyectoSideMenuMapasJC.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FB3D78317255AAE5994327 /* Pods-ProyectoSideMenuMapasJC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoSideMenuMapasJC.release.xcconfig"; path = "Target Support Files/Pods-ProyectoSideMenuMapasJC/Pods-ProyectoSideMenuMapasJC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261EF67E297EF324008783BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B9C8E268734CAD98A6D954 /* Pods_ProyectoSideMenuMapasJC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0C3B952985EFE200759C0B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3B962985EFE200759C0B /* MarkerMap.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1D60302A2983E04F005F5310 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1D60302C2983E088005F5310 /* BrowserDelegateProtocol.swift */,
+				1D0C3BAF2985F37D00759C0B /* ModalAddAnnotationViewControllerDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		1D60302B2983E056005F5310 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2656EEF8297F219B0051C33F /* ExtensionUIViewController.swift */,
+				26EB101D29818516008F545B /* ExtensionUITextField.swift */,
+				1D384360298618A10043D0FD /* ExtensionUIView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		1DB2EA3C2987234600FB03E4 /* permissions */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2EA3D2987238800FB03E4 /* location */,
+			);
+			path = permissions;
+			sourceTree = "<group>";
+		};
+		1DB2EA3D2987238800FB03E4 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2EA392987194800FB03E4 /* LocationManagerDelegate.swift */,
+				1DB2EA40298723C700FB03E4 /* LocationPermission.swift */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		261EF678297EF324008783BE = {
+			isa = PBXGroup;
+			children = (
+				261EF683297EF324008783BE /* ProyectoSideMenuMapasJC */,
+				261EF682297EF324008783BE /* Products */,
+				8EF04CE1F5BE80972F307A73 /* Pods */,
+				CA33CE2E35F9E0A1709EA621 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		261EF682297EF324008783BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261EF681297EF324008783BE /* ProyectoSideMenuMapasJC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261EF683297EF324008783BE /* ProyectoSideMenuMapasJC */ = {
+			isa = PBXGroup;
+			children = (
+				266CDA912989943F00693427 /* home */,
+				266CDA842989925000693427 /* browser */,
+				266CDA942989951700693427 /* maps */,
+				2656EEF7297F21790051C33F /* utils */,
+				261EF684297EF324008783BE /* AppDelegate.swift */,
+				261EF686297EF324008783BE /* SceneDelegate.swift */,
+				261EF68A297EF324008783BE /* Main.storyboard */,
+				261EF68D297EF325008783BE /* Assets.xcassets */,
+				261EF68F297EF325008783BE /* LaunchScreen.storyboard */,
+				261EF692297EF325008783BE /* Info.plist */,
+			);
+			path = ProyectoSideMenuMapasJC;
+			sourceTree = "<group>";
+		};
+		2656EEF7297F21790051C33F /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2EA3C2987234600FB03E4 /* permissions */,
+				1D60302B2983E056005F5310 /* extensions */,
+				1D60302A2983E04F005F5310 /* protocols */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		266CDA842989925000693427 /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				266CDA902989941B00693427 /* model */,
+				266CDA89298992F200693427 /* view */,
+				266CDA88298992EB00693427 /* presenter */,
+			);
+			path = browser;
+			sourceTree = "<group>";
+		};
+		266CDA88298992EB00693427 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				266CDA8C2989934A00693427 /* BrowserPresenter.swift */,
+				266CDA8A2989932000693427 /* ModalUrlPresenter.swift */,
+				266CDA8E2989938400693427 /* BrowserMenuRightPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		266CDA89298992F200693427 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3BA12985EFE200759C0B /* BrowserViewController.swift */,
+				1D0C3B9F2985EFE200759C0B /* ModalUrlViewController.swift */,
+				1D0C3BA22985EFE200759C0B /* BrowserMenuRightViewController.swift */,
+				1D0C3BA02985EFE200759C0B /* MarkerTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		266CDA902989941B00693427 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3B972985EFE200759C0B /* MarkerWeb.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		266CDA912989943F00693427 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3B9A2985EFE200759C0B /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		266CDA922989946F00693427 /* Linares */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3BA42985EFE200759C0B /* LinaresViewController.swift */,
+			);
+			path = Linares;
+			sourceTree = "<group>";
+		};
+		266CDA93298994A900693427 /* Turismo */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3B9C2985EFE200759C0B /* TurismoViewController.swift */,
+				1D0C3B9D2985EFE200759C0B /* ModalAddAnnotationViewController.swift */,
+			);
+			path = Turismo;
+			sourceTree = "<group>";
+		};
+		266CDA942989951700693427 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3B952985EFE200759C0B /* model */,
+				266CDA962989956800693427 /* View */,
+				266CDA952989953900693427 /* presenter */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		266CDA952989953900693427 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				266CDA972989966B00693427 /* LinaresPresenter.swift */,
+				266CDA992989967600693427 /* TurismoPresenter.swift */,
+				1D946E972985AA9000969DED /* MapViewConfiguration.swift */,
+				1D946E9A2985AE3600969DED /* MapViewDelegate.swift */,
+				1D38436429861A720043D0FD /* TextFieldDelegate.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		266CDA962989956800693427 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				266CDA922989946F00693427 /* Linares */,
+				266CDA93298994A900693427 /* Turismo */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EF04CE1F5BE80972F307A73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A4B02246B9EBB46C10A1E /* Pods-ProyectoSideMenuMapasJC.debug.xcconfig */,
+				E3FB3D78317255AAE5994327 /* Pods-ProyectoSideMenuMapasJC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA33CE2E35F9E0A1709EA621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68773C330720D3F08D87AE65 /* Pods_ProyectoSideMenuMapasJC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261EF680297EF324008783BE /* ProyectoSideMenuMapasJC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261EF695297EF325008783BE /* Build configuration list for PBXNativeTarget "ProyectoSideMenuMapasJC" */;
+			buildPhases = (
+				51E3AC6C178A5B8383C894F3 /* [CP] Check Pods Manifest.lock */,
+				261EF67D297EF324008783BE /* Sources */,
+				261EF67E297EF324008783BE /* Frameworks */,
+				261EF67F297EF324008783BE /* Resources */,
+				17EC0753363DEA3F8FFFBCFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoSideMenuMapasJC;
+			productName = ProyectoSideMenuMapasJC;
+			productReference = 261EF681297EF324008783BE /* ProyectoSideMenuMapasJC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261EF679297EF324008783BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					261EF680297EF324008783BE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 261EF67C297EF324008783BE /* Build configuration list for PBXProject "ProyectoSideMenuMapasJC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261EF678297EF324008783BE;
+			productRefGroup = 261EF682297EF324008783BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261EF680297EF324008783BE /* ProyectoSideMenuMapasJC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261EF67F297EF324008783BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261EF691297EF325008783BE /* LaunchScreen.storyboard in Resources */,
+				261EF68E297EF325008783BE /* Assets.xcassets in Resources */,
+				261EF68C297EF324008783BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EC0753363DEA3F8FFFBCFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoSideMenuMapasJC/Pods-ProyectoSideMenuMapasJC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoSideMenuMapasJC/Pods-ProyectoSideMenuMapasJC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoSideMenuMapasJC/Pods-ProyectoSideMenuMapasJC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E3AC6C178A5B8383C894F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoSideMenuMapasJC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261EF67D297EF324008783BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266CDA9A2989967600693427 /* TurismoPresenter.swift in Sources */,
+				1D0C3BB02985F37D00759C0B /* ModalAddAnnotationViewControllerDelegate.swift in Sources */,
+				1D0C3BA82985EFE200759C0B /* TurismoViewController.swift in Sources */,
+				1D0C3BAE2985EFE200759C0B /* LinaresViewController.swift in Sources */,
+				266CDA982989966B00693427 /* LinaresPresenter.swift in Sources */,
+				1D384361298618A10043D0FD /* ExtensionUIView.swift in Sources */,
+				266CDA8D2989934A00693427 /* BrowserPresenter.swift in Sources */,
+				1D0C3BA92985EFE200759C0B /* ModalAddAnnotationViewController.swift in Sources */,
+				1DB2EA3A2987194800FB03E4 /* LocationManagerDelegate.swift in Sources */,
+				1D60302D2983E088005F5310 /* BrowserDelegateProtocol.swift in Sources */,
+				1D0C3BAB2985EFE200759C0B /* MarkerTableViewCell.swift in Sources */,
+				261EF685297EF324008783BE /* AppDelegate.swift in Sources */,
+				1D0C3BAD2985EFE200759C0B /* BrowserMenuRightViewController.swift in Sources */,
+				1D0C3BA52985EFE200759C0B /* MarkerMap.swift in Sources */,
+				1D946E982985AA9000969DED /* MapViewConfiguration.swift in Sources */,
+				1DB2EA41298723C700FB03E4 /* LocationPermission.swift in Sources */,
+				266CDA8B2989932000693427 /* ModalUrlPresenter.swift in Sources */,
+				1D0C3BAC2985EFE200759C0B /* BrowserViewController.swift in Sources */,
+				266CDA8F2989938400693427 /* BrowserMenuRightPresenter.swift in Sources */,
+				1D0C3BA62985EFE200759C0B /* MarkerWeb.swift in Sources */,
+				1D0C3BA72985EFE200759C0B /* HomeViewController.swift in Sources */,
+				26EB101E29818516008F545B /* ExtensionUITextField.swift in Sources */,
+				1D0C3BAA2985EFE200759C0B /* ModalUrlViewController.swift in Sources */,
+				261EF687297EF324008783BE /* SceneDelegate.swift in Sources */,
+				1D946E9B2985AE3600969DED /* MapViewDelegate.swift in Sources */,
+				1D38436529861A720043D0FD /* TextFieldDelegate.swift in Sources */,
+				2656EEF9297F219B0051C33F /* ExtensionUIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		261EF68A297EF324008783BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261EF68B297EF324008783BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261EF68F297EF325008783BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261EF690297EF325008783BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261EF693297EF325008783BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		261EF694297EF325008783BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261EF696297EF325008783BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1A4B02246B9EBB46C10A1E /* Pods-ProyectoSideMenuMapasJC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DTLRHN6WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoSideMenuMapasJC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.estech.ProyectoSideMenuMapasJC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		261EF697297EF325008783BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FB3D78317255AAE5994327 /* Pods-ProyectoSideMenuMapasJC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7DTLRHN6WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProyectoSideMenuMapasJC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.estech.ProyectoSideMenuMapasJC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261EF67C297EF324008783BE /* Build configuration list for PBXProject "ProyectoSideMenuMapasJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261EF693297EF325008783BE /* Debug */,
+				261EF694297EF325008783BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261EF695297EF325008783BE /* Build configuration list for PBXNativeTarget "ProyectoSideMenuMapasJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261EF696297EF325008783BE /* Debug */,
+				261EF697297EF325008783BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261EF679297EF324008783BE /* Project object */;
+}
